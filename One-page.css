@@ -97,18 +97,14 @@
       overflow-y: auto;
     }
 
-    @media only screen and (max-width: 600px) {
+    .nav-header { 
+
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
+            text-align: center;
+            margin: auto;
         
-        .nav-header a {
-        display: inline-block;
-        vertical-align: middle;
-        }
-        
-        .responsive .logo {
-        position: relative;
-        display: block;
-        width: 100%;
-        text-align: center;
-        }
-        }
+    }
   }
