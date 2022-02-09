@@ -1,4 +1,4 @@
-.box {
+.jaina {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 50px 2em;
@@ -9,32 +9,34 @@
 
 }
 
-.box :first-child {
+.jaina :first-child {
     align-self: center;
     justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
 
-  .box {
+  .jaina {
 
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 50px 2em;
       text-align: center;
       margin-top: 5vw;
+      padding: 5px;
   }
 }
 
 @media screen and (max-width: 600px) {
 
-  .box {
+  .jaina {
 
       display: grid;
       grid-template-columns: 1fr;
       gap: 50px 2em;
       text-align: center;
       margin-top: 10vw;
+      padding: 5px;
   }
 }
     
