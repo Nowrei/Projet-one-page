@@ -31,7 +31,7 @@ body {
     height: 200px;
     width: 300px;
     position: relative;
-    background: rgba(137, 196, 244,0.5);
+    background: rgba(139, 190, 231, 0.198);
   }
   
   .header h2 {
@@ -49,7 +49,7 @@ body {
   .price {
     height: 120px;
     width: 300px;
-    background: rgba(92, 63, 196, 0.5);
+    background: rgba(176, 241, 238, 0.5);
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     position: absolute;
     top: 0;
@@ -63,6 +63,19 @@ body {
   position: relative;
   top: 30px;
   }
+  .logo{
+      width: 100%;
+      min-height: min-content;
+      border: #c71515;
+
+  }
+  h2{
+      font-size: 300%;
+      margin-left:18%;
+      font-family: 'Dancing Script', cursive;
+  }
+  
+  
   
   
   
