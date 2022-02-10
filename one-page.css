@@ -438,7 +438,7 @@
 
   .slider{
 
-    opacity: 55%;
+    opacity: 75%;
   }
   }
 
@@ -458,7 +458,6 @@
         line-height:50px;
         text-align:center; /* centre le text horizontalement*/
         vertical-align:center; /* centre le text verticalement*/
-        margin-top : 10px;
         text-decoration: none;   
         font-size: 18px;
         
@@ -557,7 +556,6 @@
         background: #178df591;
         color: black;
         border-radius: 5px;
-        box-shadow: 3px 2px;
         width: 85px;
         line-height:50px;
         text-align:center; /* centre le text horizontalement*/
