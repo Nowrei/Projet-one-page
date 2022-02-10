@@ -59,6 +59,7 @@
     display: none;
   }
 
+  
   .slider{
     height: 80vh;
     position: relative;
@@ -438,7 +439,7 @@
 
   .slider{
 
-    opacity: 75%;
+    z-index: -500;
   }
   }
 
