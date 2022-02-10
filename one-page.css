@@ -438,7 +438,7 @@
 
   .slider{
 
-    opacity: 75%;
+    z-index: -500;
   }
   }
 
